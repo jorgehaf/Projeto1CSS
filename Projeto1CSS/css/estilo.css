@@ -1,0 +1,123 @@
+body {
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(../imagens/bg-4.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero nav ul {
+    text-align: right;
+    margin: 25px 25px 0 0;
+}
+
+.hero nav li {
+    display: inline-block;
+    /*Coloca as li's da em linha e bloco*/
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 5px;
+}
+
+.hero nav a {
+    background: rgba(0, 0, 0, 0.4);
+    display: block;
+    padding: 10px;
+    color: white;
+    /*cor do texto*/
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    /*espaço entre letras*/
+}
+
+.hero nav a:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hero-content {
+    text-align: center;
+    /* alinhamento de texto*/
+    color: white;
+    /*cor do texto*/
+}
+
+.hero-content h1 {
+    margin-top: 250px;
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 2px 2px 4px black;
+    /*Efeito de sombra*/
+}
+
+.hero-content p {
+    display: inline-block;
+    /* transformar uma "palavra" em bloco e ainda ficar em uma linha*/
+    background: rgba(0, 0, 0, 0.5);
+    /*Transparência na cor "a"*/
+    padding: 15px;
+    border-bottom: 3px solid white;
+    font-size: 15px
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1,
+.card-2 {
+    margin-right: 2%;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.pop {
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5%;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
+
+h2 {
+    padding: 5px;
+    background-color: #ccc;
+    border-bottom: solid 2px #333;
+    margin-top: 0;
+}
+
+.rodape {
+    background-color: #666;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 2px 2px 5px black;
+    padding: 3px;
+    margin-top: 15px;
+}
